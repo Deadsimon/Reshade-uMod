@@ -1,6 +1,6 @@
 [submodule "Dependencies/reshade"]
 	path = Dependencies/reshade
-	url = https://github.com/crosire/reshade
+	url = https://github.com/crosire/reshade/include
 [submodule "Dependencies/stb"]
 	path = Dependencies/stb
 	url = https://github.com/nothings/stb
