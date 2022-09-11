@@ -27,6 +27,7 @@
 #include <vector>
 #include <filesystem>
 #include <stb_image.h>
+#include <stb_image_dds.h>
 
 using namespace reshade::api;
 
@@ -76,7 +77,7 @@ bool replace_texture(const resource_desc &desc, subresource_data &data, std::vec
 	if (std::filesystem::exists(replace_path))
 	{
 		int width = 0, height = 0, channels = 0;
-		stbi_uc *const texture_data = stbi_load(replace_path.u8string().c_str(), &width, &height, &channels, STBI_rgb_alpha);
+		stbi_uc *const texture_data = stbi_load(replace_path.string().c_str(), &width, &height, &channels, STBI_rgb_alpha);
 		if (texture_data != nullptr)
 		{
 			// Only support changing pixel data, but not texture dimensions

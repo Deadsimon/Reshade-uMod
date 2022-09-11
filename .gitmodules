@@ -1,12 +1,12 @@
 [submodule "Dependencies/reshade"]
 	path = Dependencies/reshade
-	url = https://github.com/crosire/reshade/include
+	url = https://github.com/crosire/reshade.git
 [submodule "Dependencies/stb"]
 	path = Dependencies/stb
-	url = https://github.com/nothings/stb
-[submodule "dependencies/vulkan"]
-	path = dependencies/vulkan
-	url = https://github.com/KhronosGroup/Vulkan-Headers
-[submodule "dependencies/Spirv"]
-	path = dependencies/Spirv
-	url = https://github.com/KhronosGroup/SPIRV-Headers
+	url = https://github.com/nothings/stb.git
+[submodule "Dependencies/Vulkan-Headers"]
+	path = Dependencies/Vulkan-Headers
+	url = https://github.com/KhronosGroup/Vulkan-Headers.git
+[submodule "Dependencies/SPIRV-Headers"]
+	path = Dependencies/SPIRV-Headers
+	url = https://github.com/KhronosGroup/SPIRV-Headers.git

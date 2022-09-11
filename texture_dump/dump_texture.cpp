@@ -447,7 +447,7 @@ bool dump_texture(const resource_desc &desc, const subresource_data &data)
 	return stbi_write_bmp(dump_path.u8string().c_str(), desc.texture.width, desc.texture.height, 4, rgba_pixel_data.data()) != 0;
 #elif DUMP_FORMAT == DUMP_FORMAT_PNG
 	dump_path += L".png";
-	return stbi_write_png(dump_path.u8string().c_str(), desc.texture.width, desc.texture.height, 4, rgba_pixel_data.data(), desc.texture.width * 4) != 0;
+	return stbi_write_png(dump_path.string().c_str(), desc.texture.width, desc.texture.height, 4, rgba_pixel_data.data(), desc.texture.width * 4) != 0;
 #else
 	return false;
 #endif
