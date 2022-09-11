@@ -15,3 +15,17 @@ One can use the [texture_dump](#04-texture_dump) add-on to dump all textures, th
 Credit to Crosire for the Base examples.
 
 The aim of this project is to add DDS/BC1-5 support for texture dumping and replacement For all API's in reshade
+ 
+Texture Dumping Goals:
+add DDS/BC1-5 texture dumping ( Currently reads DDS but has no way to export)
+
+Texture Replacement Goals:
+Add DDS/BC1-5 Texture Replacement
+Add "live" texture replacement 
+
+Working:
+Converting in game texture From DDS to PNG and BMP
+BMP/PNG Dumping 
+BMP/PNG texture replacement
+Skips Already dumped textures (edited)
+Simon
