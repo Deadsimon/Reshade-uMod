@@ -7,3 +7,6 @@
 [submodule "dependencies/vulkan"]
 	path = dependencies/vulkan
 	url = https://github.com/KhronosGroup/Vulkan-Headers
+[submodule "dependencies/Spirv"]
+	path = dependencies/Spirv
+	url = https://github.com/KhronosGroup/SPIRV-Headers
