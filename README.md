@@ -18,14 +18,20 @@ The aim of this project is to add DDS/BC1-5 support for texture dumping and repl
  
 Texture Dumping Goals:
 add DDS/BC1-5 texture dumping ( Currently reads DDS but has no way to export)
+Use DDS as default format
 
 Texture Replacement Goals:
 Add DDS/BC1-5 Texture Replacement
 Add "live" texture replacement 
+Use DDS as default format
+
+Utility:
+.tpf and zip support ("mods")
+Interface to load different "mods" and create custom profiles / alter settings
 
 Working:
-Converting in game texture From DDS to PNG and BMP.
-BMP/PNG Dumping .
-BMP/PNG texture replacement.
-Skips Already dumped textures .
-
+Converting in game texture From DDS to PNG and BMP
+BMP/PNG Dumping 
+BMP/PNG texture replacement
+Skips Already dumped textures
+Supports Umod file Hashing
