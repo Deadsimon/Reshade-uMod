@@ -24,8 +24,8 @@ Add DDS/BC1-5 Texture Replacement
 Add "live" texture replacement 
 
 Working:
-Converting in game texture From DDS to PNG and BMP
-BMP/PNG Dumping 
-BMP/PNG texture replacement
-Skips Already dumped textures (edited)
-Simon
+Converting in game texture From DDS to PNG and BMP.
+BMP/PNG Dumping .
+BMP/PNG texture replacement.
+Skips Already dumped textures .
+
