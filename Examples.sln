@@ -9,26 +9,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05-texture_replace", "05-te
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FBE035F6-A729-465C-9EB8-1F94DFC4A8B6}.Debug|x64.ActiveCfg = Debug|x64
-		{FBE035F6-A729-465C-9EB8-1F94DFC4A8B6}.Debug|x64.Build.0 = Debug|x64
 		{FBE035F6-A729-465C-9EB8-1F94DFC4A8B6}.Debug|x86.ActiveCfg = Debug|Win32
 		{FBE035F6-A729-465C-9EB8-1F94DFC4A8B6}.Debug|x86.Build.0 = Debug|Win32
-		{FBE035F6-A729-465C-9EB8-1F94DFC4A8B6}.Release|x64.ActiveCfg = Release|x64
-		{FBE035F6-A729-465C-9EB8-1F94DFC4A8B6}.Release|x64.Build.0 = Release|x64
 		{FBE035F6-A729-465C-9EB8-1F94DFC4A8B6}.Release|x86.ActiveCfg = Release|Win32
 		{FBE035F6-A729-465C-9EB8-1F94DFC4A8B6}.Release|x86.Build.0 = Release|Win32
-		{CF5F2DF4-4C59-4B66-8A0E-BC0D92792AF6}.Debug|x64.ActiveCfg = Debug|x64
-		{CF5F2DF4-4C59-4B66-8A0E-BC0D92792AF6}.Debug|x64.Build.0 = Debug|x64
 		{CF5F2DF4-4C59-4B66-8A0E-BC0D92792AF6}.Debug|x86.ActiveCfg = Debug|Win32
 		{CF5F2DF4-4C59-4B66-8A0E-BC0D92792AF6}.Debug|x86.Build.0 = Debug|Win32
-		{CF5F2DF4-4C59-4B66-8A0E-BC0D92792AF6}.Release|x64.ActiveCfg = Release|x64
-		{CF5F2DF4-4C59-4B66-8A0E-BC0D92792AF6}.Release|x64.Build.0 = Release|x64
 		{CF5F2DF4-4C59-4B66-8A0E-BC0D92792AF6}.Release|x86.ActiveCfg = Release|Win32
 		{CF5F2DF4-4C59-4B66-8A0E-BC0D92792AF6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
