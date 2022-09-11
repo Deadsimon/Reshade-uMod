@@ -4,3 +4,6 @@
 [submodule "Dependencies/stb"]
 	path = Dependencies/stb
 	url = https://github.com/nothings/stb
+[submodule "dependencies/vulkan"]
+	path = dependencies/vulkan
+	url = https://github.com/KhronosGroup/Vulkan-Headers
