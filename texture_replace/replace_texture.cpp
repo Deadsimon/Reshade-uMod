@@ -27,7 +27,6 @@
 #include <vector>
 #include <filesystem>
 #include <stb_image.h>
-#include <stb_image_dds.h>
 
 using namespace reshade::api;
 
