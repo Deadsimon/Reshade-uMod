@@ -27,6 +27,7 @@
 #include <vector>
 #include <filesystem>
 #include <stb_image.h>
+#include <DirectXTex.h>
 
 using namespace reshade::api;
 
