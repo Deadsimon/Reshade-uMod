@@ -10,3 +10,6 @@
 [submodule "Dependencies/SPIRV-Headers"]
 	path = Dependencies/SPIRV-Headers
 	url = https://github.com/KhronosGroup/SPIRV-Headers.git
+[submodule "DirectXTex"]
+	path = DirectXTex
+	url = https://github.com/microsoft/DirectXTex
