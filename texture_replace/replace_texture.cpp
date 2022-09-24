@@ -96,6 +96,9 @@ bool replace_texture(const resource_desc &desc, subresource_data &data, std::vec
 			data.row_pitch = 4 * width;
 			data.slice_pitch = data.row_pitch * height;
 			return true;
+
+			// use DirectXtex to replace DDS textures
+
 		}
 	}
 

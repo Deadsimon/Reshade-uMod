@@ -64,7 +64,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\SPIRV-Headers\include\spirv\unified1;$(SolutionDir)Dependencies\reshade\include;$(SolutionDir)Dependencies\stb;$(SolutionDir)Dependencies\Vulkan-Headers\include;$(SolutionDir)Core;$(SolutionDir)DirectXTex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\SPIRV-Headers\include\spirv\unified1;$(SolutionDir)Dependencies\reshade\include;$(SolutionDir)Dependencies\stb;$(SolutionDir)Dependencies\Vulkan-Headers\include;$(SolutionDir)Core;$(SolutionDir)DirectXTex;$(SolutionDir)DirectXTex\DirectXTex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
